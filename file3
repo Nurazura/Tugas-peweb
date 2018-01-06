@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas Perancangan Web</title>
+
+        <style type="text/css">
+            body {
+                width: 1000px;
+            }
+
+            header {
+                background: #CC00CC;
+                border: 1px solid white;
+                color: white;
+                font-size: 2em;
+                font-variant: small-caps;
+                text-align: center;
+            }
+            img {
+                width: 300px;
+                height: 230px;
+            }
+
+            nav {
+                background: #FFCCFF;
+                border: 1px solid white;
+                color: #A52A2A;
+                font-family: adobe fan heit;
+                font-style: italic;
+                font-size: 20px;
+                    
+            }
+
+                nav ul{list-style:none;margin:0;padding:4px;}
+                nav ul li{list-style-type:none; display:inline-block}
+
+                nav li a,aside li a:visited{color:#000000;
+                    text-decoration:underline;
+                    padding:10px 16px;
+                    display:block}
+
+                nav li a:hover{background:#FF99CC}
+
+            
+            footer{
+                background: #990099;
+                border: 1px solid white;
+                text-align: center;
+                color: white;
+                font-family: arial ;
+            }
+
+           
+            aside{
+                background: #FFCCFF;
+                border: 1px solid white;
+                font-family: cooper black;
+            }
+            aside ul{list-style:none;margin:0;padding:4px;}
+
+                aside ul li{list-style-type:none;display:inline-block}
+                aside li a,aside li a:visited{color:#9900CC;
+                    text-decoration:none;
+                    padding:10px 16px;
+                    display:block}
+
+                aside li a:hover{background:#FFEBCD}
+
+            header, footer {
+                width: 100%;
+            }
+
+
+            header {
+                height: 300px;
+            }
+            
+            nav{
+                float: left;
+                height: 1000px;
+                width: 200px;
+            }
+
+            section{
+                background:#FFCCFF;
+                border: 1px solid white;
+            }
+            h2{ color: black;
+                text-align: center;
+                font-family: cooper black;
+            }
+
+            fieldset {
+                border: 2px solid #9400D3;
+                display: inline-block;
+                font-size: 18px;
+                padding: 1em 1em;
+                font-family: comic sans ms;
+
+            }
+
+            legend {
+                background: #000000;     
+                color: #FFFFFF;          
+                margin-bottom: 10px;
+                padding: 1em 2em;
+                font-family: cooper black;
+                font-size: : 1.5em;
+            }
+
+
+
+            section#content {
+                
+                float: left;
+                height: 950px;
+                width:750px;
+               } 
+    
+
+            aside {
+                float: left;
+                height: 50px;
+                width: 750px;
+            }
+            footer {
+                height: 50px;
+                clear: both;
+            }
+        </style>
+    
+
+    </head>
+
+    <body>
+        <header>DOPISCOM 
+            <br>Diversity of People in Computer System 
+            <br><img src="dopiscom - Copy.png">
+        </header>
+
+        <nav><ul>
+
+        <li><a href="Sejarah_Dopiscom.html">Sejarah Dopiscom</a></li>
+            <li><a href="menu.html">Anivversary 1st</a></li>
+            <li><a href="about.html">Moment Bios 1</a></li>
+            <li><a href="contact-us.html">Cerita anggota</a></li>
+            <li><a href="contact-us.html">Suka dan Duka</a></li>
+        </ul>
+        </nav>
+        <aside><ul>
+
+        <li><a href="tugas.peweb.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul></aside> 
+
+        
+<section id="content">
+<fieldset>
+ <legend>Sejarah Dopiscom</legend>
+ <p> Dopiscom adalah kepanjangan dari Diversity of People in Computer System yang merupakan sebuah nama perkumpulan Mahasiswa Sistem Komputer Universitas Tanjungpura angkatan 2016 tanpa terkecuali. Dopiscom ini berdiri karena adanya rasa persaudaraan yang kuat antar anggota maka terbentuklah sebuah Keluarga yang diberi nama Dopiscom dengan pada awalnya dipimpin oleh Ahmad Sobari, dan kemudian digantkan oleh Gerry Dwi Utomo karena beliau pindah kuliah karena ketidakmampuan dalam mata kuliah dan biaya.</p>
+
+
+</fieldset>
+</form>
+</section>
+
+        <footer>DOPISCOM <br>
+Siskom 2016</footer>
+    </body>
+</html>
